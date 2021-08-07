@@ -14,7 +14,7 @@ function createListItem(rank, title, img) {
 
 
 
-fetch("https://api.jikan.moe/v3/top/anime", {
+fetch("https://api.jikan.moe/v3/top/anime/1/upcoming", {
     method: "GET"
 })
   .then(res => res.json())
